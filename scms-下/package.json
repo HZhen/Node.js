@@ -1,0 +1,14 @@
+{
+  "name": "scms",
+  "version": "1.0.0",
+  "description": "a simple cms system",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cms"
+  ],
+  "author": "",
+  "license": "ISC"
+}
