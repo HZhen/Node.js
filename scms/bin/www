@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var app = require('../app.js');  //获取在app.js中导出的实例
+var config = require('../config/config.js');  //获取config.js的端口号
+
+app.listen(config.port, function(){   //设置监听
+	console.log('app started, listening on port:', config.port);
+});
