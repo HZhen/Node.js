@@ -1,6 +1,6 @@
 
 var mongoose = require('mongoose'); //导入mongoose，使用news里的模型
-var News = require('../models/news.server.model.js');  //找出news的mongoose模型
+var News = mongoose.model('News');   //找出news的mongoose模型
 
 module.exports = {				//导出处理各种请求的方法，通过对象组织
 	create: function(req, res, next){
